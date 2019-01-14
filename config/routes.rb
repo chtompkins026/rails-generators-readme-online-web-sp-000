@@ -13,6 +13,20 @@ Rails.application.routes.draw do
 
   get 'accounts/show'
 
+  get 'accounts/new'
+
+  get 'accounts/create'
+
+  get 'accounts/edit'
+
+  get 'accounts/update'
+
+  get 'accounts/destroy'
+
+  get 'accounts/index'
+
+  get 'accounts/show'
+
   get 'admin/dashboard'
 
   get 'admin/stats'
